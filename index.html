@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Jokenpô</title>
+</head>
+
+<body>
+    <div class="video-container">
+        <video autoplay muted loop playsinline class="back-video">
+            <source src="./assets/background-play.mp4">
+        </video>
+        <section class="container">
+            <h2>Jokenpô</h2>
+            <div class="buttons">
+                <button onclick="playerOne('rock')" class="rock">&#x1F44A</button>
+                <button onclick="playerOne('paper')"  class="paper">&#x270B</button>
+                <button onclick="playerOne('scissors')" class="scissors">&#x270C</button>
+            </div>
+            <p class="result"></p>
+            <h3>Your Score <span class="player-score">0</span>:</h3>
+            <h3>Alexa Score <span class="machine-score">0:</span></h3>
+        </section>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
