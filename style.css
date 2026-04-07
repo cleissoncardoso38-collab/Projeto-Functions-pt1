@@ -117,8 +117,8 @@ p {
 @media screen and (max-width:600px) {
     .video-container {
         position: relative;
-        width: 80%;
-        height: 75vh;
+        width: 100vw;
+        height: 100vh;
         /* Altura total da tela */
         overflow: hidden;
         vertical-align: middle;
@@ -145,7 +145,7 @@ p {
         background-position: center;
         background-size: 120%;
         height: 250px;
-        width: 200px;
+        width: 250px;
         padding: 20px;
         border-radius: 10px;
         position: relative;
