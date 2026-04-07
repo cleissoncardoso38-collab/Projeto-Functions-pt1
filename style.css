@@ -113,3 +113,75 @@ p {
     margin-top: 25px;
     color: blanchedalmond;
 }
+
+@media screen and (max-width:600px) {
+    .video-container {
+        position: relative;
+        width: 80%;
+        height: 75vh;
+        /* Altura total da tela */
+        overflow: hidden;
+        vertical-align: middle;
+    }
+
+    .back-video {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        /* Garante que fique atrás */
+        object-fit: cover;
+        /* Ajusta o vídeo sem distorcer */
+
+    }
+
+    .container {
+        background-image: url(./assets/div-main-bckg3.jpg);
+        background-size: cover;
+        background-position: center;
+        background-size: 120%;
+        height: 250px;
+        width: 250px;
+        padding: 20px;
+        border-radius: 10px;
+        position: relative;
+        z-index: 1;
+        margin: 40% auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: 500;
+        font-weight: bold;
+        color: blanchedalmond;
+        margin-top: 5px;
+    }
+    .buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px
+}
+button {
+    padding: 10px;
+    font-size: 25px;
+}
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3px;
+    color: blanchedalmond;
+}
+p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5ch;
+    color: blanchedalmond;
+}
+}
