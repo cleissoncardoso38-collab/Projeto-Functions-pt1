@@ -31,6 +31,7 @@ const playTheGame = (player, machine) => {
         playerScoreNumber++
         playerScore.innerHTML = playerScoreNumber    
         result.innerHTML = `You Win! &#x1F609`
+        alert
        
     } 
         else {
